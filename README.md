@@ -6,6 +6,10 @@
 - Designed as a quick reference for labs, assessments, and real-world testing  
 - Useful for penetration testers, security researchers, and learners  
 
+## Network Enumeration
+
+- [Nmap](https://github.com/vimalraj-sec/offensive-security-cheatsheet/blob/b0a677f96008929d0c91bff66cd7fe3e74c4908b/Initial%20Enumeration/QUICK%20NMAP%20CHEATSHEET.md)
+
 ## Port Enumeration
 - [Port 21 FTP](https://github.com/vimalraj-sec/offensive-security-cheatsheet/blob/e2c45c17d11edcb72c42381e35665e4912591ead/Port%20Enumeration/21%20FTP%20ENUMERATION.md)
 - [Port 22 SSH](https://github.com/vimalraj-sec/offensive-security-cheatsheet/blob/e2c45c17d11edcb72c42381e35665e4912591ead/Port%20Enumeration/22%20SSH%20ENUMERATION.md)
