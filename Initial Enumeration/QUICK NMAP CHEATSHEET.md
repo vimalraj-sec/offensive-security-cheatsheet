@@ -1,6 +1,6 @@
 ## QUICK
 ```bash
-sudo grc nmap -Pn -p- -sV -sC -v -T5 --open --min-rate 1500 --max-rtt-timeout 500ms --max-retries 3 2>/dev/null -oN nmap/scan-script-version $ip
+sudo nmap -Pn -p- -sV -sC -v -T5 --open --min-rate 1500 --max-rtt-timeout 500ms --max-retries 3 2>/dev/null -oN nmap/scan-script-version $ip
 ```
 ---
 ## COPY NMAP OUTPUT
