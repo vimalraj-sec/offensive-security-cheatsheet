@@ -6,8 +6,8 @@
 - Designed as a quick reference for labs, assessments, and real-world testing  
 - Useful for penetration testers, security researchers, and learners  
 
-## Network Enumeration
-
+## Reconaissance
+- [Setting env](https://github.com/vimalraj-sec/offensive-security-cheatsheet/blob/d4b21408616ea81198845fc58040ddbed0c7c248/Initial%20Enumeration/01%20SETTING%20ENV.md)
 - [Nmap](https://github.com/vimalraj-sec/offensive-security-cheatsheet/blob/b0a677f96008929d0c91bff66cd7fe3e74c4908b/Initial%20Enumeration/QUICK%20NMAP%20CHEATSHEET.md)
 
 ## Port Enumeration
