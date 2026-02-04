@@ -4,6 +4,7 @@ mkdir nmap fuzz www exploits dump scan; touch 01-machineip.txt 02-credentials.tx
 ```
 ---
 ## SETTING VARIABLES IP AND URL
+#### Paste the machine IP Address on 01-machineip.txt > Save > Exit
 ```bash
 nano 01-machineip.txt
 ```
