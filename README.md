@@ -25,6 +25,16 @@ echo $ip;echo -e;echo $url
 ```
 
 ## Port Scanning Using Nmap
+#### Quick Port Scan
+```bash
+sudo nmap -Pn -p- -sV -sC -v -T5 --open --min-rate 1500 --max-rtt-timeout 500ms --max-retries 3 2>/dev/null -oN nmap/scan-script-version $ip
+```
+#### All Port Scan with Script & Version Scan - Oneliner
+```bash
+sudo nmap -p- -sC -sV -vv -oN nmap/scan-script-version $ip
+```
+
+#### More
 - [Nmap](https://github.com/vimalraj-sec/offensive-security-cheatsheet/blob/b0a677f96008929d0c91bff66cd7fe3e74c4908b/Initial%20Enumeration/QUICK%20NMAP%20CHEATSHEET.md)
 
 ## Port Enumeration
