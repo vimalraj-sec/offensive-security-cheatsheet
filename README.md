@@ -37,6 +37,29 @@ sudo nmap -p- -sC -sV -vv -oN nmap/scan-script-version $ip
 #### More
 - [Nmap](https://github.com/vimalraj-sec/offensive-security-cheatsheet/blob/b0a677f96008929d0c91bff66cd7fe3e74c4908b/Initial%20Enumeration/QUICK%20NMAP%20CHEATSHEET.md)
 
+#### Initial Web Fuzzing
+```bash
+# common.txt
+sudo ffuf -r -c -w /usr/share/wordlists/dirb/common.txt -fc 404 -u $url/FUZZ | tee fuzz/ffuf-common
+sudo wfuzz -c -w /usr/share/wordlists/dirb/common.txt -v -t 40 --hc 404 -u $url/FUZZ | tee fuzz/wfuzz-common.txt
+sudo gobuster dir -w /usr/share/wordlists/dirb/common.txt -b 404 -o fuzz/gobuster-common.txt -t 20 -u $url/
+sudo feroxbuster -w /usr/share/wordlists/dirb/common.txt -C 404 -o fuzz/feroxbuster-common.txt -t 20 -u $url/
+```
+```bash
+# files
+sudo ffuf -r -c  -w /usr/share/seclists/Discovery/Web-Content/raft-large-files.txt -fc 404 -u $url/FUZZ | tee fuzz/ffuf-raft-large-files
+sudo wfuzz -c -w /usr/share/seclists/Discovery/Web-Content/raft-large-files.txt -v -t 40  --hc 404 -u $url/FUZZ | tee fuzz/wfuzz-raft-large-files.txt
+sudo gobuster dir -w /usr/share/seclists/Discovery/Web-Content/raft-large-files.txt -b 404 -o fuzz/gobuster-raft-large-files.txt -t 20 -u $url/
+sudo feroxbuster -w /usr/share/seclists/Discovery/Web-Content/raft-large-files.txt -C 404 -o fuzz/feroxbuster-raft-large-files.txt -t 20 -u $url/
+```
+```bash
+# directories 
+sudo ffuf -r -c  -w /usr/share/seclists/Discovery/Web-Content/raft-large-directories.txt -fc 404 -u $url/FUZZ/ | tee fuzz/ffuf-raft-large-directories 
+sudo wfuzz -c -w /usr/share/seclists/Discovery/Web-Content/raft-large-directories.txt -v -t 40 --hc 404 -u $url/FUZZ/ | tee fuzz/wfuzz-raft-large-directories.txt
+sudo gobuster dir -w /usr/share/seclists/Discovery/Web-Content/raft-large-directories.txt -b 404 -o fuzz/gobuster-raft-large-directories.txt -t 20 -u $url/
+sudo feroxbuster -w /usr/share/seclists/Discovery/Web-Content/raft-large-directories.txt -C 404 -o fuzz/feroxbuster-raft-large-directories.txt -t 20 -u $url/
+```
+
 ## Port Enumeration
 - [21 FTP Port](https://github.com/vimalraj-sec/offensive-security-cheatsheet/blob/e2c45c17d11edcb72c42381e35665e4912591ead/Port%20Enumeration/21%20FTP%20ENUMERATION.md)
 - [22 SSH Port](https://github.com/vimalraj-sec/offensive-security-cheatsheet/blob/e2c45c17d11edcb72c42381e35665e4912591ead/Port%20Enumeration/22%20SSH%20ENUMERATION.md)
