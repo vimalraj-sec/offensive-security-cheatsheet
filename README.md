@@ -37,7 +37,7 @@ sudo nmap -p- -sC -sV -vv -oN nmap/scan-script-version $ip
 #### More
 - [Nmap](https://github.com/vimalraj-sec/offensive-security-cheatsheet/blob/b0a677f96008929d0c91bff66cd7fe3e74c4908b/Initial%20Enumeration/QUICK%20NMAP%20CHEATSHEET.md)
 
-#### Initial Web Fuzzing
+## Initial Web Fuzzing
 ```bash
 # common.txt
 sudo ffuf -r -c -w /usr/share/wordlists/dirb/common.txt -fc 404 -u $url/FUZZ | tee fuzz/ffuf-common
