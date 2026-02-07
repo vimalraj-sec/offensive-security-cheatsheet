@@ -37,7 +37,7 @@ sudo nmap -p- -sC -sV -vv -oN nmap/scan-script-version $ip
 #### More
 - [Nmap](https://github.com/vimalraj-sec/offensive-security-cheatsheet/blob/b0a677f96008929d0c91bff66cd7fe3e74c4908b/Initial%20Enumeration/QUICK%20NMAP%20CHEATSHEET.md)
 
-## Initial Web Fuzzing
+## Web Fuzzing
 ```bash
 # common.txt
 sudo ffuf -r -c -w /usr/share/wordlists/dirb/common.txt -fc 404 -u $url/FUZZ | tee fuzz/ffuf-common
@@ -58,6 +58,60 @@ sudo ffuf -r -c  -w /usr/share/seclists/Discovery/Web-Content/raft-large-directo
 sudo wfuzz -c -w /usr/share/seclists/Discovery/Web-Content/raft-large-directories.txt -v -t 40 --hc 404 -u $url/FUZZ/ | tee fuzz/wfuzz-raft-large-directories.txt
 sudo gobuster dir -w /usr/share/seclists/Discovery/Web-Content/raft-large-directories.txt -b 404 -o fuzz/gobuster-raft-large-directories.txt -t 20 -u $url/
 sudo feroxbuster -w /usr/share/seclists/Discovery/Web-Content/raft-large-directories.txt -C 404 -o fuzz/feroxbuster-raft-large-directories.txt -t 20 -u $url/
+```
+## If Found SMB 139 445 Port Open 
+```bash
+# List Shares
+sudo smbclient -L $ip
+
+# Check Shares
+sudo nxc smb $ip --shares
+
+# Check Shares Anonymous Authentication
+sudo nxc smb $ip --shares -u 'anonymous' -p ''
+sudo nxc smb $ip --shares -u 'guest' -p ''
+
+# Spider Share
+sudo nxc smb $ip -u 'anonymous' -p '' --spider SHARENAME --regex .
+
+# Download File from share
+sudo nxc smb $ip -u 'anonymous' -p '' --share SHARENAME --get-file /remote/path/to/file /local/path/to/save
+
+# Rid-brute Force - Anonymous
+sudo nxc smb $ip -u 'anonymous' -p '' --rid-brute | tee raw-rid
+grep "SidTypeUser" raw-rid | awk -F'\\\\' '{print $2}' | awk '{print $1}' > usernames
+
+# Brute force Creds
+sudo nxc smb $ip --shares -u ./users.txt -p ./passwords.txt --continue-on-success
+sudo nxc smb $ip --shares -u 'anonymous' -p '' --local-auth
+```
+## If Found FTP 21 Port Open 
+```bash
+sudo ftp $ip  
+sudo nc -nvv $ip 21  
+
+# anonymous login check
+sudo ftp ftp://anonymous:anonymous@$ip
+
+# Change Modes - Passive
+passive
+# Change Modes - Active
+quote port
+# Change Modes - Binary
+binary
+# Change Modes - ASCII
+ascii
+
+# DEFAULT PASSWORDS
+anonymous
+admin
+guest
+
+# BRUTE FORCE - DEFAULT CREDENTIALS
+sudo hydra -v -C /usr/share/seclists/Passwords/Default-Credentials/ftp-betterdefaultpasslist.txt -f ftp://$ip
+
+# Try special login cases -nsr  (null, username, reverse username) bruteforce with user list
+sudo hydra -L ./usernamelist -e nsr ftp://$ip
 ```
 
 ## Port Enumeration
