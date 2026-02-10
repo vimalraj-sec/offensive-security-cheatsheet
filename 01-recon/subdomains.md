@@ -1,5 +1,6 @@
 ## Basic DNS subdomain brute force
 ```bash
+# Using ffuf
 sudo ffuf -c -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt -u http://FUZZ.cmess.thm -t 40 -fc 404
 
 # Using wfuzz
