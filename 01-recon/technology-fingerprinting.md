@@ -21,7 +21,6 @@ Look for:
 * Kernel hints
 * Device type (server, router, VM)
 
----
 
 ## 2️⃣ Service & Version Detection
 
@@ -39,7 +38,6 @@ Look for:
 * Outdated or vulnerable services
 * Service banners
 
----
 
 ## 3️⃣ Banner Grabbing (Manual)
 
@@ -57,7 +55,6 @@ Useful for:
 * Legacy protocols
 * Quick validation of Nmap results
 
----
 
 ## 4️⃣ Web Technology Fingerprinting
 
@@ -72,7 +69,6 @@ Identify:
 * Frameworks (Laravel, Django, Spring)
 * CMS (WordPress, Joomla, Drupal)
 
----
 
 ## 5️⃣ CMS & Framework Identification
 
@@ -90,7 +86,6 @@ Look for:
 * Default paths
 * Plugin exposure
 
----
 
 ## 6️⃣ HTTP Header Analysis
 
@@ -104,7 +99,6 @@ Headers often reveal:
 * Framework hints
 * Reverse proxies or load balancers
 
----
 
 ## 7️⃣ TLS / SSL Fingerprinting
 
@@ -117,8 +111,6 @@ Look for:
 * Certificate CN / SAN entries
 * Internal hostnames
 * Legacy crypto usage
-
----
 
 ## 8️⃣ SMB / Windows Fingerprinting
 
@@ -136,8 +128,6 @@ Identify:
 * Domain or workgroup name
 * SMB signing status
 
----
-
 ## 9️⃣ SNMP Fingerprinting (If Available)
 
 ```bash
@@ -151,11 +141,4 @@ Can reveal:
 * Network interfaces
 * Running services
 
----
 
-## 🔟 Notes / Gotchas
-
-* Fingerprinting is iterative — revisit after new discoveries
-* Always validate automated results manually
-* Versions ≠ vulnerabilities (confirm exploitability)
-* Save fingerprints for exploit research and reporting
