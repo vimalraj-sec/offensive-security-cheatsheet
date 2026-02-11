@@ -30,3 +30,27 @@ Identify open ports, running services, and exposed technologies.
 - 👉 [Web Application Recon](https://github.com/vimalraj-sec/offensive-security-cheatsheet/blob/be3e4cd70f562c7acb172cd2cfe8a7ea890aafc2/01-recon/web-recon.md)
 - 👉 [Subdomains](https://github.com/vimalraj-sec/offensive-security-cheatsheet/blob/82f88548eb0abf9f08b36c22c603844f92ffe75f/01-recon/subdomains.md)
 - 👉 [Technology Fingerprinting](https://github.com/vimalraj-sec/offensive-security-cheatsheet/blob/fe374d57b32fc1bc067d76dfecb8b3c45058a8fb/01-recon/technology-fingerprinting.md)
+
+### 🌐 02 – Web Application Enumeration
+Enumerate web applications running on discovered services.
+- 👉 [Directory & File Fuzzing](https://github.com/vimalraj-sec/offensive-security-cheatsheet/blob/b034222748c882366956b3346c37c07a1eac4e53/02-web/directory-file-fuzzing.md)
+
+# ~ To be Updated
+
+### 🔌 03 – Service Enumeration
+Enumerate non-web services for misconfigurations and weak credentials.
+
+### 🚀 04 – Exploitation
+Exploit identified vulnerabilities to gain initial access.
+
+### 🧠 05 – Privilege Escalation
+Escalate privileges after initial access.
+
+### 🧠 05 – Privilege Escalation
+Escalate privileges after initial access.
+
+### 📚 Resources
+Helpful references and wordlists.
+
+
+
