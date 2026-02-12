@@ -35,10 +35,11 @@ Identify open ports, running services, and exposed technologies.
 Enumerate web applications running on discovered services.
 - 👉 [Directory & File Fuzzing](https://github.com/vimalraj-sec/offensive-security-cheatsheet/blob/b034222748c882366956b3346c37c07a1eac4e53/02-web/directory-file-fuzzing.md)
 
-# ~ To be Updated
-
 ### 🔌 03 – Service Enumeration
 Enumerate non-web services for misconfigurations and weak credentials.
+- 👉 [FTP Enumeration (Port 21)](https://github.com/vimalraj-sec/offensive-security-cheatsheet/blob/0abae55ad193cf6134aba4ee0cac7a1b1f5c0946/03-services/ftp-21.md)
+
+# ~ To be Updated
 
 ### 🚀 04 – Exploitation
 Exploit identified vulnerabilities to gain initial access.
