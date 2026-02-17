@@ -40,9 +40,8 @@ Enumerate non-web services for misconfigurations and weak credentials.
 - 👉 [FTP Enumeration (Port 21)](https://github.com/vimalraj-sec/offensive-security-cheatsheet/blob/0abae55ad193cf6134aba4ee0cac7a1b1f5c0946/03-services/ftp-21.md)
 - 👉 [SSH Enumeration (Port 22)](https://github.com/vimalraj-sec/offensive-security-cheatsheet/blob/1f748b4eb1a44e50246e8989773519c0a5bf6bdc/03-services/ssh-22.md)
 - 👉 [SMTP Enumeration (Port 25 465 587)](https://github.com/vimalraj-sec/offensive-security-cheatsheet/blob/5a08b7ab54c590d416a8553aad27fb894ab405a1/03-services/smtp-25.md)
+- 👉 [POP3 Enumeration (Port 110 995)](https://github.com/vimalraj-sec/offensive-security-cheatsheet/blob/4e2f4d8d1d34dac5449e19c0124dc6fa2873cfa9/03-services/pop3-110-995.md)
 - 👉 [SMB Enumeration (Port 139 445)](https://github.com/vimalraj-sec/offensive-security-cheatsheet/blob/26a42a477bcbba980c2307752e9bfcf51832929e/03-services/smb-139-445.md)
-
-  
 
 # ~ To be Updated
 ### 🚀 04 – Exploitation
