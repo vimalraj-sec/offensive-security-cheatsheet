@@ -42,6 +42,8 @@ Enumerate non-web services for misconfigurations and weak credentials.
 - 👉 [SMTP Enumeration (Port 25 465 587)](https://github.com/vimalraj-sec/offensive-security-cheatsheet/blob/5a08b7ab54c590d416a8553aad27fb894ab405a1/03-services/smtp-25.md)
 - 👉 [SMB Enumeration (Port 139 445)](https://github.com/vimalraj-sec/offensive-security-cheatsheet/blob/26a42a477bcbba980c2307752e9bfcf51832929e/03-services/smb-139-445.md)
 
+  
+
 # ~ To be Updated
 ### 🚀 04 – Exploitation
 Exploit identified vulnerabilities to gain initial access.
