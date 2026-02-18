@@ -37,6 +37,7 @@ Enumerate web applications running on discovered services.
 
 ### 🔌 03 – Service Enumeration
 Enumerate non-web services for misconfigurations and weak credentials.
+- 👉 [Port Knocking Enumeration](https://github.com/vimalraj-sec/offensive-security-cheatsheet/blob/5eeaa4d5292fbd7d368037f44c9f1c5ca540c672/03-services/port-knocking.md)
 - 👉 [FTP Enumeration (Port 21)](https://github.com/vimalraj-sec/offensive-security-cheatsheet/blob/0abae55ad193cf6134aba4ee0cac7a1b1f5c0946/03-services/ftp-21.md)
 - 👉 [SSH Enumeration (Port 22)](https://github.com/vimalraj-sec/offensive-security-cheatsheet/blob/1f748b4eb1a44e50246e8989773519c0a5bf6bdc/03-services/ssh-22.md)
 - 👉 [SMTP Enumeration (Port 25 465 587)](https://github.com/vimalraj-sec/offensive-security-cheatsheet/blob/5a08b7ab54c590d416a8553aad27fb894ab405a1/03-services/smtp-25.md)
