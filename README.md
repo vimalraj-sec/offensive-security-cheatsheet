@@ -49,6 +49,7 @@ Enumerate non-web services for misconfigurations and weak credentials.
 - 👉 [MSSQL Enumeration (Port 1433)](https://github.com/vimalraj-sec/offensive-security-cheatsheet/blob/327cca31058977ea139d1cb7f97c0f392e26e533/03-services/mssql-1433.md)
 - 👉 [NFS Enumeration (Port 2049)](https://github.com/vimalraj-sec/offensive-security-cheatsheet/blob/c3c43553a92be280c745486343797155718be4aa/03-services/nfs-2049.md)
 - 👉 [PostgreSQL Enumeration (Port 5432)](https://github.com/vimalraj-sec/offensive-security-cheatsheet/blob/9df57091cff45e9606db6e6e1eeb7c29d6d8ac87/03-services/postgresql-5432-5433.md)
+- 👉 [Redis Enumeration (Port 6379)](https://github.com/vimalraj-sec/offensive-security-cheatsheet/blob/11d9830fead7294d650070ef111de147df132ca3/03-services/redis-6379.md)
 
 # ~ To be Updated
 ### 🚀 04 – Exploitation
