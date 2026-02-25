@@ -46,7 +46,7 @@ Enumerate non-web services for misconfigurations and weak credentials.
 - 👉 [POP3 Enumeration (Port 110 995)](https://github.com/vimalraj-sec/offensive-security-cheatsheet/blob/4e2f4d8d1d34dac5449e19c0124dc6fa2873cfa9/03-services/pop3-110-995.md)
 - 👉 [SMB Enumeration (Port 139 445)](https://github.com/vimalraj-sec/offensive-security-cheatsheet/blob/26a42a477bcbba980c2307752e9bfcf51832929e/03-services/smb-139-445.md)
 - 👉 [IMAP Enumeration (Port 143 993)](https://github.com/vimalraj-sec/offensive-security-cheatsheet/blob/8de5ff50f56f819779bdfd83ed80074f84fad015/03-services/imap-143-993.md)
-- 👉 [IKE IPSec VPN ENumeration (Port 500)](https://github.com/vimalraj-sec/offensive-security-cheatsheet/blob/0aba9be2cc04d47a6ecad09fa622b1dd26ddc6dc/03-services/IKE-IPSec-VPN-500.md)
+- 👉 [IKE IPSec VPN Enumeration (Port 500)](https://github.com/vimalraj-sec/offensive-security-cheatsheet/blob/0aba9be2cc04d47a6ecad09fa622b1dd26ddc6dc/03-services/IKE-IPSec-VPN-500.md)
 - 👉 [MSSQL Enumeration (Port 1433)](https://github.com/vimalraj-sec/offensive-security-cheatsheet/blob/327cca31058977ea139d1cb7f97c0f392e26e533/03-services/mssql-1433.md)
 - 👉 [NFS Enumeration (Port 2049)](https://github.com/vimalraj-sec/offensive-security-cheatsheet/blob/c3c43553a92be280c745486343797155718be4aa/03-services/nfs-2049.md)
 - 👉 [MySQL Enumeration (Port 3306)](https://github.com/vimalraj-sec/offensive-security-cheatsheet/blob/6c904bfd50a993be0d2e020f78036961eaf6567f/03-services/mysql-3306.md)
