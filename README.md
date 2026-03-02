@@ -55,6 +55,7 @@ Enumerate non-web services for misconfigurations and weak credentials.
 - 👉 [RDP Enumeration (Port 3389)](https://github.com/vimalraj-sec/offensive-security-cheatsheet/blob/9d6f1a520b3885af27bea371ad30d7ad6b28d46d/03-services/rdp-3389.md)
 - 👉 [PostgreSQL Enumeration (Port 5432)](https://github.com/vimalraj-sec/offensive-security-cheatsheet/blob/9df57091cff45e9606db6e6e1eeb7c29d6d8ac87/03-services/postgresql-5432-5433.md)
 - 👉 [Redis Enumeration (Port 6379)](https://github.com/vimalraj-sec/offensive-security-cheatsheet/blob/11d9830fead7294d650070ef111de147df132ca3/03-services/redis-6379.md)
+- 👉 [MongoDB Enumeration (Port 27017)](https://github.com/vimalraj-sec/offensive-security-cheatsheet/blob/48dec219d5247ebaf208b1a9b1a46adfb8ad1704/03-services/mongodb-27017.md)
 
 # ~ To be Updated
 ### 🚀 04 – Exploitation
