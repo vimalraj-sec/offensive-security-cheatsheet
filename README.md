@@ -47,7 +47,7 @@ Enumerate non-web services for misconfigurations and weak credentials.
 - 👉 [SMB Enumeration (Port 139 445)](https://github.com/vimalraj-sec/offensive-security-cheatsheet/blob/26a42a477bcbba980c2307752e9bfcf51832929e/03-services/smb-139-445.md)
 - 👉 [IMAP Enumeration (Port 143 993)](https://github.com/vimalraj-sec/offensive-security-cheatsheet/blob/8de5ff50f56f819779bdfd83ed80074f84fad015/03-services/imap-143-993.md)
 - 👉 [LDAP Enumeration (Port 389 636)](https://github.com/vimalraj-sec/offensive-security-cheatsheet/blob/8a1814ec7e4ea99de91d854e09c113baabc34190/03-services/ldap-389-636.md)
-- 👉 [RSH RLOGIN Enumeration (Port 514)](https://github.com/vimalraj-sec/offensive-security-cheatsheet/blob/13cfea908e78524e94cfc76c992b14b1486d64ca/03-services/rsh-rlogin-514.md)
+- 👉 [REXEC RLOGIN RSH Enumeration (Port 512 513 514)](https://github.com/vimalraj-sec/offensive-security-cheatsheet/blob/c3c213dbabbd29bd39a81640a93f4e4688f60821/03-services/rsh-rlogin-514.md)
 - 👉 [IKE IPSec VPN Enumeration (Port 500)](https://github.com/vimalraj-sec/offensive-security-cheatsheet/blob/0aba9be2cc04d47a6ecad09fa622b1dd26ddc6dc/03-services/IKE-IPSec-VPN-500.md)
 - 👉 [MSSQL Enumeration (Port 1433)](https://github.com/vimalraj-sec/offensive-security-cheatsheet/blob/327cca31058977ea139d1cb7f97c0f392e26e533/03-services/mssql-1433.md)
 - 👉 [NFS Enumeration (Port 2049)](https://github.com/vimalraj-sec/offensive-security-cheatsheet/blob/c3c43553a92be280c745486343797155718be4aa/03-services/nfs-2049.md)
