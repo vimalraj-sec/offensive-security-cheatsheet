@@ -34,6 +34,7 @@ Identify open ports, running services, and exposed technologies.
 ### 🌐 02 – Web Application Enumeration
 Enumerate web applications running on discovered services.
 - 👉 [Directory & File Fuzzing](https://github.com/vimalraj-sec/offensive-security-cheatsheet/blob/b034222748c882366956b3346c37c07a1eac4e53/02-web/directory-file-fuzzing.md)
+- 👉 [CMS- Wordpress Enumeration](https://github.com/vimalraj-sec/offensive-security-cheatsheet/blob/15f00319d8f11067a147cbec42c10d23bf4bd18b/02-web/cmd-wordpress.md)
 
 ### 🔌 03 – Service Enumeration
 Enumerate non-web services for misconfigurations and weak credentials.
