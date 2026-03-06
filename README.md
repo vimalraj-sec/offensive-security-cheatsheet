@@ -36,6 +36,7 @@ Enumerate web applications running on discovered services.
 - 👉 [Directory & File Fuzzing](https://github.com/vimalraj-sec/offensive-security-cheatsheet/blob/b034222748c882366956b3346c37c07a1eac4e53/02-web/directory-file-fuzzing.md)
 - 👉 [CMS - Wordpress Enumeration](https://github.com/vimalraj-sec/offensive-security-cheatsheet/blob/15f00319d8f11067a147cbec42c10d23bf4bd18b/02-web/cmd-wordpress.md)
 - 👉 [CMS - Drupal Enumeration](https://github.com/vimalraj-sec/offensive-security-cheatsheet/blob/b1eea8e7c5843adcfad7cf056314c6adf8b325c6/02-web/cms-drupal.md)
+- 👉 [LFI Cheatsheet](https://github.com/vimalraj-sec/offensive-security-cheatsheet/blob/9c44d6a113787737f6c463924320f5afbf795cfb/02-web/LFI-cheatsheet.md)
 
 ### 🔌 03 – Service Enumeration
 Enumerate non-web services for misconfigurations and weak credentials.
