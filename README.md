@@ -61,6 +61,9 @@ Enumerate non-web services for misconfigurations and weak credentials.
 - 👉 [Redis Enumeration (Port 6379)](https://github.com/vimalraj-sec/offensive-security-cheatsheet/blob/11d9830fead7294d650070ef111de147df132ca3/03-services/redis-6379.md)
 - 👉 [MongoDB Enumeration (Port 27017)](https://github.com/vimalraj-sec/offensive-security-cheatsheet/blob/48dec219d5247ebaf208b1a9b1a46adfb8ad1704/03-services/mongodb-27017.md)
 
+### Pivoting
+- 👉 [Pivoting & Port Forwarding Cheatsheet ](https://github.com/vimalraj-sec/offensive-security-cheatsheet/blob/31ba8aecd72d48011ca0061f1de915f5bc0a96d5/03-services/pivoting-port-forwarding.md)
+
 # ~ To be Updated
 ### 🚀 04 – Exploitation
 Exploit identified vulnerabilities to gain initial access.
