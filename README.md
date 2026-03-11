@@ -64,6 +64,9 @@ Enumerate non-web services for misconfigurations and weak credentials.
 ### Pivoting
 - 👉 [Pivoting & Port Forwarding Cheatsheet ](https://github.com/vimalraj-sec/offensive-security-cheatsheet/blob/31ba8aecd72d48011ca0061f1de915f5bc0a96d5/03-services/pivoting-port-forwarding.md)
 
+### File Transfer
+- 👉 [Linux File Transfer](https://github.com/vimalraj-sec/offensive-security-cheatsheet/blob/a20f2830f85ad8dc89f8e30bca2131400744af3d/03-services/file-transfer-linux.md)
+
 # ~ To be Updated
 ### 🚀 04 – Exploitation
 Exploit identified vulnerabilities to gain initial access.
